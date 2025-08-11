@@ -1,0 +1,33 @@
+<h1> 🎓Student Management System</h1>
+<p><a href="/adduser">👨‍🎓 ADD STUDENT</a></p>
+<table>
+    <thead>
+    <tr>
+    <td>SI NO</td>
+    <td>NAME</td>
+    <td>ADMIN NUMBER</td>
+    <td>ADMIN YEAR</td>
+    <td>COURSE</td>
+    <td>✏️EDIT</td>
+    <td>🗑️DELETE</td>
+   </tr> 
+    </thead>
+   
+   <tbody>
+    {{#each rows}}
+    <tr>
+        <td>{{this.ID}}</td>
+        <td>{{this.NAME}}</td>
+        <td>{{this.ADMINNO}}</td>
+        <td>{{this.ADMINYEAR}}</td>
+        <td>{{this.COURSE}}</td>
+        <td><a class="edit" href="/edituser/{{this.ID}}">Edit</a>
+        </td>
+        <td><a onclick="return confirm('Are you sure?')" 
+        class="delete" href="/deleteuser/{{this.ID}}">Delete</a></td>
+    </tr>
+    {{/each}}
+    </tbody>
+
+
+</table>

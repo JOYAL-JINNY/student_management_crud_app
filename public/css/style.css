@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  body{
+    font-family: 'Poppins';
+    background-color: aliceblue;
+  }
+  h1{
+    color: rgb(42, 148, 41);
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    margin-bottom: 0px;
+  }
+  p a{
+    color: white;
+    text-decoration: none;
+  }
+  p{
+    text-align: right;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(4, 214, 4);
+    color: white;
+    margin-top: 0px;
+  }
+  table{
+    margin-top: 0px;
+    width: 100%;
+    border: 1px solid rgb(10, 10, 10);
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  table td{
+    border: 1px solid rgb(106, 116, 116);
+    text-align: center;
+  }
+  table thead td{
+    color:white ;
+    background-color: rgb(15, 106, 106);
+    padding: 5px;
+    text-align: center;
+    font-weight: 500;
+  }
+  table tbody tr:nth-child(even){
+    background-color: rgb(216, 246, 249);
+  }
+  .edit,.delete
+  {
+    color: white;
+    background-color: rgb(12, 99, 99);
+    width: 80px;
+    height: 25px;
+    text-decoration: none;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    padding: 2px;
+  }
+  .delete{
+    background-color: rgb(224, 71, 71);
+  }
+.alert{
+  display: block;
+  padding: 5px;
+  background-color: forestgreen;
+  border-radius: 3px;
+  height: 30px;
+  color: white;
+}
+h3{
+  margin-left: 590px;
+}
+h2{
+  margin-left: 600px;
+}
+    /* body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    } */
+
+    .form-container {
+      background-color:white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 9px 15px rgba(0,0,0,0.1);
+      width: 300px;
+      margin-left: 500px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    .save-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #47bd4d;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .back{
+      width: 100px;
+      height: 30px;
+      margin-top: 20px;
+      background-color:white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      border: 2px solid #28c028 ;
+      margin-left: 90px;
+
+    }
+    .back a{
+      color: #28c028;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .save-button:hover {
+      background-color: #47bd4d;
+      color: white;
+    }
+  
+  

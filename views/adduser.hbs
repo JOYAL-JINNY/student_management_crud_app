@@ -1,0 +1,35 @@
+<h3>🧑Add New Student</h3>
+    <h2>👤User Form</h2>
+
+{{#if msg}}
+<div class="alert">
+{{msg}}
+</div>
+{{/if}}
+<form method="post" action="/adduser">
+
+  <div class="form-container">
+    
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="adminno">ADMIN NUMBER:</label>
+        <input type="text" id="adminno" name="adminno" required />
+      </div>
+
+      <div class="form-group">
+        <label for="year">ADMIN YEAR:</label>
+        <input type="date" id="year" name="year" required />
+      </div>
+    <div class="form-group">
+        <label for="course">COURSE:</label>
+        <input type="text" id="course" name="course" required />
+      </div>
+      <button type="submit" class="save-button">Save</button>
+    <button class="back"><a href="/" >View </a></button>
+  </div>
+</form>
+
